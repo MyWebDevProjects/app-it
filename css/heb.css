@@ -1,0 +1,44 @@
+.nav-heb span{
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.tooltip-heb {
+    display: inline-block;
+    position: relative;
+    
+}
+.tooltip-heb:after {
+    content:"English";
+    opacity: 0;
+    background: #FFF !important;
+    border-radius: 30px/120px;
+    box-shadow:0 2px 4px #646464;
+    color:#4fd2c2;
+    text-align: center;
+    
+    top: 0;
+    left: 110%;
+    padding: 5px;
+    z-index: 98;
+    
+    position:absolute;
+    font:20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: opacity 0.3s ease;
+    
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    top: 100%;
+    left: 50%; 
+    margin-left: -50px;
+   
+}   
+
+.tooltip-heb:hover:after {
+    opacity:0.8;
+}
+
+.btn-heb{
+    font-size: 18px;
+}

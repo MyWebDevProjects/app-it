@@ -1,0 +1,10 @@
+//1. change icons on why us section
+//2. fix menu items names
+//3. add right photos to portfolio and right elements
+//4. see what can be done about tech section
+5. footer section
+//6. logo
+7. add hebrew version
+8. add analytics
+9. build article page
+10.build blog
