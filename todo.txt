@@ -8,3 +8,8 @@
 8. add analytics
 9. build article page
 10.build blog
+
+
+bug fix :
+
+its not in the bottom of the styles

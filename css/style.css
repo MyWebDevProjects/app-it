@@ -727,6 +727,7 @@ th {
 
 .glyphicon-arrow-down:before {
   content: "\e094";
+    margin: 20px;
 }
 
 .glyphicon-share-alt:before {
@@ -1489,7 +1490,7 @@ hr {
   width: auto;
   height: auto;
   margin: 0;
-  overflow: visible;
+  overflow: hidden;
   clip: auto;
 }
 
@@ -1764,7 +1765,7 @@ ol ol {
 }
 
 .list-inline {
-  padding-left: 0;
+  padding: 0px !important;
   list-style: none;
   margin-left: -5px;
 }
@@ -3021,7 +3022,7 @@ table th[class*="col-"] {
 }
 
 .table-responsive {
-  overflow-x: auto;
+  overflow-x: hidden;
   min-height: 0.01%;
 }
 @media screen and (max-width: 767px) {
@@ -3742,6 +3743,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   color: #fff;
   background-color: #4fd2c2;
   border-color: #3bcdbb;
+    margin-top:20px;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -4685,7 +4687,7 @@ tbody.collapse.in {
 }
 
 .navbar-collapse {
-  overflow-x: visible;
+  overflow-x: hidden;
   padding-right: 20px;
   padding-left: 20px;
   border-top: 1px solid transparent;
@@ -4712,10 +4714,10 @@ tbody.collapse.in {
     display: block !important;
     height: auto !important;
     padding-bottom: 0;
-    overflow: visible !important;
+    overflow: hidden !important;
   }
   .navbar-collapse.in {
-    overflow-y: visible;
+    overflow-y: hidden;
   }
   .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
     padding-left: 0;
@@ -8059,6 +8061,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+    margin-bottom: 10px;
 }
 @media screen and (max-width: 480px) {
   #app-it-faqs .faq-accordion .faq-accordion-icon-toggle {
@@ -8224,7 +8227,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .app-it-uppercase-sm {
-  font-size: 12px;
+  font-size: 17px;
   letter-spacing: 2px;
   font-family: "Montserrat", arial, sans-serif;
   text-transform: uppercase;
@@ -9162,6 +9165,7 @@ portfolio section
     border: 0px solid;
     background: none;
     transition:all 0.3s ease;
+    font-size: 16px !important;
 }
 .test:hover{
     color:#00c6d7;
@@ -9173,7 +9177,7 @@ portfolio section
 .process ul li span b{display: block;font-size: 1em;font-weight: 300;}
 .process ul li{margin:0 0.5em; }
 .process ul li{width: 9em;height: 9em;}
-/*# sourceMappingURL=style.css.map */
+
 
 
 
@@ -9191,11 +9195,14 @@ portfolio section
 	padding:20px 25px;
 	height:65px;
 }
+.arr-faq{
+    margin-bottom: 8px;
+}
 #contact label {
 	text-transform:uppercase;
 	font-weight:300;
 	 letter-spacing:3px;
-	 font-size:13px;
+	 font-size:16px;
 }
 #contact input,#contact select,#contact textarea {
 	font-family:inherit;
@@ -9252,53 +9259,8 @@ portfolio section
 	font-style:italic;
 	display:inline-block;
 }
-.footer {
-	padding:70px 0 60px 0;
-    margin: 0;
-    width: 99%;
-}
-.footer ul.social-icons li {
-	width:20px;
-	height:20px;
-	position:relative;
-	background:#fff;
-	border:2px solid #ccc;
-	border-radius:50%;
-}
-.footer ul.social-icons li a {
-	color:#666;
-}
-.contactalert {  
-	margin-top: 20px;
-	border: 1px solid;
-	display: inline-block;
-	padding: 20px;
-}
-#credits {
-	padding:30px 0;
-	text-transform:uppercase;
-	font-size:13px;
-	line-height: 1.6;
-}
-#credits a {
-	color:inherit;
-}
-#credits .social i {
-	border:1px solid #ccc;
-	height:30px;
-	width:30px;
-	line-height:30px;
-	border-radius:50%;
-	margin-left:2px;
-	color:#999;
-	text-align:center;
-	margin-bottom:15px;
-	display:inline-block;
-}
-#credits .social i:hover {
-	color: #333;
-    
-}
+
+
 
 .process-item{
     transition: all 0.3s ease;
@@ -9315,12 +9277,23 @@ portfolio section
     padding-bottom: 10px;
 }
 
-/* ==========================================================================
-home section
-========================================================================== */
-
-
-
 .menu-h{
     margin-bottom: 5px;
+}
+
+. wh4{
+    font-size: 20px;
+}
+
+.faqh3{
+    text-align: center;
+}
+.head-subtitle{
+    color:#4fd2c2;
+}
+
+.lang{
+/*    float: left;*/
+    margin-right: 20px;
+    padding-right: 20px;
 }
